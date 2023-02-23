@@ -17,7 +17,7 @@ if (route.params.slug) {
     id = id[0];
   }
 
-  const apiUrl = `https://animal.publishonline24.com/wp-json/wp/v2/posts?slug=${id}`;
+  const apiUrl = `https://freshnews96.com/wp-json/wp/v2/posts?slug=${id}`;
   const response = await fetch(apiUrl);
   const json = await response.json();
   //console.log(data);
